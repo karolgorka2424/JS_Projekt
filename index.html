@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="weather-app">
+        <div class="language-switcher">
+            <img src="32px-Flag_of_the_United_Kingdom_(3-5).svg.webp" id="en" class="flag" alt="English">
+            <img src="32px-Flag_of_Poland.svg.png" id="pl" class="flag" alt="Polski">
+        </div>
+        <div class="current-weather">
+            <h2 id="current-weather-title">Current Weather</h2>
+            <p id="current-temp"></p>
+            <p id="current-humidity"></p>
+            <p id="current-condition"></p>
+            <img id="current-icon" src="" alt="Weather Icon">
+        </div>
+        <div class="forecast">
+            <h2 id="forecast-title">5-Day Forecast</h2>
+            <div id="forecast-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
